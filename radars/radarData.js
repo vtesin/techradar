@@ -54,7 +54,9 @@ var radar_data = [
         "top" : 18,
         "color" : "#8FA227",
         "items" : [ 
-            {name:"Incremental data warehousing", pc:{r:250, t:165}, movement:'c'}
+            {name:'Reactive Architecture', pc:{r:220, t:145}, movement:'t'},
+            {name:'Agile specification', pc:{r:220, t:155}, movement:'t'},
+            {name:'Event storming', pc:{r:230, t:165}, movement:'t'},
         ]
     },
     { "quadrant": "Tools",
@@ -62,7 +64,8 @@ var radar_data = [
         "top" : 18,
         "color" : "#587486",
         "items" : [ 
-            { name: 'Docker', pc: { r: 170, t: 19 }, movement: 't' }
+            { name: 'Docker Toolbox', pc: { r: 210, t: 19 }, movement: 't' },
+            { name: 'Anaconda Python', pc: { r: 215, t: 27 }, movement: 't' },
         ]
     },
     { "quadrant": "Platforms",
@@ -70,7 +73,9 @@ var radar_data = [
          "top" : (h/2 + 18),
         "color" : "#DC6F1D",
         "items" : [
-            {name:"OpenId Connect", pc:{r:130, t:260}, movement:'t'}
+            {name:'Cassandra', pc:{r:210, t:220}, movement:'t'},
+            {name:'Apache Spark', pc:{r:215, t:235}, movement:'t'},
+            {name:'H20', pc:{r:225, t:240}, movement:'t'},
         ]
     },
     { "quadrant": "Languages & Frameworks",
@@ -78,7 +83,9 @@ var radar_data = [
         "left"  : (w-200+30),
         "top" :   (h/2 + 18),
         "items" : [ 
-            { name: 'CDI', pc: { r: 60, t: 290 },  movement: 'c' }
+            { name: 'SignalR', pc: { r: 211, t: 290 },  movement: 't' },
+            { name: 'Python', pc: { r: 221, t: 299 },  movement: 't' },
+            { name: 'Visual F#', pc: { r: 231, t: 305 },  movement: 't' },
         ]
     }
 ];
